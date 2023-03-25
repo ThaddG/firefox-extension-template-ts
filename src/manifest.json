@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Firefox Extenion Template",
+    "version": "1.0",
+    "description": "A TypeScript-ready Firefox extension template",
+    "permissions": [],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.example.com/*"],
+        "js": ["contentScript.js"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+{
+  "name": "firefox-extension-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 src/manifest.json src/*.html src/styles/*.css src/*.png dist/"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}

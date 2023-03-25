@@ -1,0 +1,16 @@
+# .gitignore
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Editor-specific files
+.vscode/
+*.sublime*
+*.iml
+*.idea/
